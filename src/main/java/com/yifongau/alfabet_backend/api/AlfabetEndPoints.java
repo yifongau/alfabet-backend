@@ -1,4 +1,4 @@
-package com.stater.alfabet_backend.api;
+package com.yifongau.alfabet_backend.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.stater.alfabet_backend.domain.Lemma;
-import com.stater.alfabet_backend.persistance.AlfabetService;
+import com.yifongau.alfabet_backend.domain.Lemma;
+import com.yifongau.alfabet_backend.persistance.AlfabetService;
 
 @RestController
 public class AlfabetEndPoints {

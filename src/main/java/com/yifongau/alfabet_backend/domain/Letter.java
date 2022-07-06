@@ -1,4 +1,4 @@
-package com.stater.alfabet_backend.domain;
+package com.yifongau.alfabet_backend.domain;
 
 import java.util.List;
 

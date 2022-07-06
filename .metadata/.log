@@ -4,7 +4,7 @@ java.version=17.0.2
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -data /home/yifongau/projecten/it-gerelateerd/git/202207-stater-alfabet-backend -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data /home/yifongau/projecten/it-gerelateerd/git/202207-alfabet-backend -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
 
 !ENTRY org.eclipse.jface 2 0 2022-05-01 12:25:16.800
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.

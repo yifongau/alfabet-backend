@@ -1,4 +1,4 @@
-package com.stater.alfabet_backend;
+package com.yifongau.alfabet_backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

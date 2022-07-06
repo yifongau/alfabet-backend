@@ -1,8 +1,9 @@
-package com.stater.alfabet_backend.persistance;
+package com.yifongau.alfabet_backend.persistance;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.stater.alfabet_backend.domain.Lemma;
+
+import com.yifongau.alfabet_backend.domain.Lemma;
 
 @Service
 public class AlfabetService {
