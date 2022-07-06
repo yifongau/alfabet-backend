@@ -11,6 +11,7 @@ public class AlfabetService {
 	@Autowired
 	LemmaRepo lemmarepo;
 	LetterRepo letterrepo;
+	CategorieRepo categorierepo;
 	
 	
 	// Lemmafuncties

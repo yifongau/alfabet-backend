@@ -15,7 +15,11 @@ public class Lemma {
 	String url;
 	
 	@ManyToOne
-	Letter l;
+	Letter letter;
+	
+	@ManyToOne
+	Categorie categorie;
+	
 
 	public long getId() {
 		return id;
@@ -41,15 +45,22 @@ public class Lemma {
 		this.url = url;
 	}
 
-	public Letter getL() {
-		return l;
+	public Letter getLetter() {
+		return letter;
 	}
 
-	public void setL(Letter l) {
-		this.l = l;
+	public void setLetter(Letter letter) {
+		this.letter = letter;
 	}
 
-	// Getters and setters
+	public Categorie getCategorie() {
+		return categorie;
+	}
+
+	public void setCategorie(Categorie categorie) {
+		this.categorie = categorie;
+	}
+
 	
 
 }

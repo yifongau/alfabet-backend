@@ -23,8 +23,8 @@ public class AlfabetEndPoints {
 	}
 	
 	@PostMapping("lemma")
-	public void newLemma(@RequestBody Lemma l){
-		as.newLemma(l);
+	public void newLemma(@RequestBody Lemma lemma){
+		as.newLemma(lemma);
 	}
 	
 	
