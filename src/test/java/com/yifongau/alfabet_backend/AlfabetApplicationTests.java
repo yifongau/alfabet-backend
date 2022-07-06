@@ -1,4 +1,4 @@
-package com.stater.alfabet_backend.tests;
+package com.yifongau.alfabet_backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
