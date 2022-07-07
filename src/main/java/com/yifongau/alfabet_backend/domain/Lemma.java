@@ -11,6 +11,7 @@ public class Lemma {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	long id;
+	String naam;
 	String beschrijving;
 	String url;
 	
@@ -20,6 +21,14 @@ public class Lemma {
 	@ManyToOne
 	Categorie categorie;
 	
+
+	public String getNaam() {
+		return naam;
+	}
+
+	public void setNaam(String naam) {
+		this.naam = naam;
+	}
 
 	public long getId() {
 		return id;
