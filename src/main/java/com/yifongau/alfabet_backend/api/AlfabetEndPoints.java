@@ -16,7 +16,8 @@ public class AlfabetEndPoints {
 	
 	@Autowired
 	AlfabetService as;
-		
+	
+	
 	@GetMapping("lemma")
 	public Iterable<Lemma> allLemma(){
 		return as.allLemma();
