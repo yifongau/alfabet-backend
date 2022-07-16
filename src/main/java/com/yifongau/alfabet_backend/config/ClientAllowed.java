@@ -10,7 +10,7 @@ public class ClientAllowed {
     private String protocol;
     private String methods;
     private String origin;
-    private Boolean enabled;
+    private boolean enabled;
 
     public String getProtocol() {
         return this.protocol;
